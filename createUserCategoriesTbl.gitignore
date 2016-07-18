@@ -1,4 +1,4 @@
-create table table_name (
+create table user_categories (
   id int(6) unsigned not null PRIMARY KEY,
   name varchar(255) not null
 ) ENGINE = MYISAM DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci;
