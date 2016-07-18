@@ -1,7 +1,9 @@
+# create table structure
 create table user_categories (
   id int(6) unsigned not null PRIMARY KEY AUTO_INCREMENT,
   name varchar(255) not null
 ) ENGINE = MYISAM DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+# below insert common user categories names
 INSERT INTO user_categories SET name = 'super admin';
 INSERT INTO user_categories SET name = 'admin';
 INSERT INTO user_categories SET name = 'moderator';
