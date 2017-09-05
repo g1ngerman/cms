@@ -12,3 +12,4 @@ INSERT INTO user_categories SET name = 'author';
 INSERT INTO user_categories SET name = 'registered user';
 INSERT INTO user_categories SET name = 'unregistered user';
 INSERT INTO user_categories SET name = 'all users';
+# push 1
